@@ -28,8 +28,8 @@ const projectList = [
   {
     title: "육아맘을 위한 검색 플랫폼 개발",
     coverImage: "/project2.png",
-    detailImages: ["/project2-cover.png"],
-    summary: "육아맘 대상 AI 추천 기반 육아용품 검색 플랫폼 구현 ing wnd ~~",
+    detailImages: [""],
+    summary: "육아맘 대상 AI 추천 기반 육아용품 검색 플랫폼 구현 ing 중 ~~",
     description: "React + TypeScript 기반 이미지 기반 육아템 검색 기능 구현.",
     tags: ["React", "TypeScript", "AI 추천", "UX"],
   },
