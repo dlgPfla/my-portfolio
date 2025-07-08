@@ -5,8 +5,8 @@ import ProjectModal from "./ProjectModal";
 const projectList = [
   {
     title: "저시력 시각장애인을 위한 메뉴판 앱",
-    coverImage: "/public/project1.png", // 카드에서 보일 이미지
-    detailImages: ["/public/project1-cover.avif"], // 모달 이미지
+    coverImage: "/project1.png", 
+    detailImages: ["/project1-cover.avif"], 
     summary: "Flutter 기반 시각장애인을 위한 메뉴판 인식 앱 개발 프로젝트",
     description: `
 2020년 고등학교 1학년 시절, 당시 키오스크 사용이 아직 활발하지 않았던 시기에  
@@ -27,16 +27,16 @@ const projectList = [
   },
   {
     title: "육아맘을 위한 검색 플랫폼 개발",
-    coverImage: "/public/project2.png",
-    detailImages: ["/public/project2-cover.png"],
+    coverImage: "/project2.png",
+    detailImages: ["/project2-cover.png"],
     summary: "육아맘 대상 AI 추천 기반 육아용품 검색 플랫폼 구현 ing wnd ~~",
     description: "React + TypeScript 기반 이미지 기반 육아템 검색 기능 구현.",
     tags: ["React", "TypeScript", "AI 추천", "UX"],
   },
   {
     title: "The CRUX 2025 – 산학협력 프로젝트 대상 수상",
-    coverImage: "/public/project3.png",
-    detailImages: ["/public/project3-cover.jpg"],
+    coverImage: "/project3.png",
+    detailImages: ["/project3-cover.jpg"],
     summary: "실무 협업 프로젝트에서 ‘캠퍼스 서랍’ 기획 및 대상 수상",
     description: "‘캠퍼스 서랍’ 기획 및 UI/UX 설계. 실무형 협업 프로젝트 대상 수상.",
     tags: ["UI/UX", "기획", "산학협력"],
