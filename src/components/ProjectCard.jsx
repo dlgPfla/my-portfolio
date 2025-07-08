@@ -1,4 +1,4 @@
-// 기존 description → summary로 변경
+
 
 const ProjectCard = ({ title, coverImage, summary, tags }) => {
   return (

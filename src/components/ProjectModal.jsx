@@ -11,7 +11,7 @@ const ProjectModal = ({ project, onClose }) => {
           ✕
         </button>
 
-        {/* 여러 이미지 보여주기 */}
+
         <div className="mb-4">
           {project.detailImages.map((src, i) => (
             <img key={i} src={src} alt={`${project.title}-${i}`} className="w-full mb-2 rounded" />
@@ -20,7 +20,7 @@ const ProjectModal = ({ project, onClose }) => {
 
         <h3 className="text-xl font-bold mb-2">{project.title}</h3>
         
-        {/* 줄바꿈(\n) 처리 */}
+      
         <p className="text-sm text-gray-700 whitespace-pre-line">{project.description}</p>
       </div>
     </div>

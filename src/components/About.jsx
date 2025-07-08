@@ -32,7 +32,7 @@ const About = () => {
   );
 };
 
-// 간단한 SkillBar 컴포넌트 함께 정의
+
 const SkillBar = ({ skill, level }) => {
   return (
     <div className="mb-4">
